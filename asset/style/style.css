@@ -1,0 +1,100 @@
+/* root */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial sans-serif;
+    max-width: 720px;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+
+}
+p {
+    color: #080808;
+    font-size: 14px;
+}
+h3{
+    font-size: 1.22rem;
+    padding: 2px 0;
+    margin: 12px 0 10px;
+    color: rgb(34, 1, 1);
+    border-radius: 1px solid #ddd;
+}
+span{
+    padding: 2px;
+    border-radius: 2px;
+    color: blue;
+}
+table{
+    text-align: left;
+    width: 25%;
+    font-size: small;
+}
+img{
+    width: 90px;
+    height: auto;
+    background: none;
+}
+ul li{
+    list-style: none;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+/* Global Variables */
+:root {
+
+    /* #004225
+#F5F5DC
+#FFB000
+#FFCF9D */
+  --color-bg-primary: rgb(74, 219, 172,.12);
+  --color-font-primary: #004225;
+  --aksen-color-primary: #FFB000;
+  --aksen-color-secondary:#FFCF9D;
+;  
+}
+/* reusable class */
+.title-container{
+    background-color: var(--aksen-color-primary);
+    padding: 5vw;
+    margin: 1vw;
+}
+.tbdr{
+    margin: 12px 2px ;
+    padding: 1vw;
+}
+
+
+/* classes */
+
+
+.wrapper{
+    background-color: var(--color-bg-primary);
+    padding: 0 7px;
+    font: 12px arial sans-serif;
+}
+.header{
+background-color: #eeee;
+}
+.header h3{
+text-align: center;
+}
+.header p{
+    text-align: center;
+}
+
+.navbar{
+    background-color: var(--aksen-color-secondary);
+
+}
+.navbar ul li{
+    display: inline-block
+}
+
+.hero{
+height: 12px;
+}
